@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* General Body */
+ body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: white;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links .active {
+    color: #007bff;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+    transition: 0.5s ease;
+}
+
+/* Call to Action Button */
+.cta-button {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.hero-content h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero Image */
+.hero-image img {
+    width: 300px;
+    border-radius: 10px;
+}
