@@ -1,0 +1,24 @@
+/* Tablet Screens (768px and above) */
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+        gap: 15px;
+    }
+
+    .blog-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Desktop Screens (1024px and above) */
+@media (min-width: 1024px) {
+    .blog-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .blog-card {
+        padding: 20px;
+    }
+}
